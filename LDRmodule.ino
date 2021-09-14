@@ -3,12 +3,12 @@ int sensorValue = 0;     // INITIALISING SENSOR VALUE AS 0
 
  
 void setup() {         
- 
-   Serial.begin(9600);        
-   pinMode(13,OUTPUT);        
-   pinMode(12,OUTPUT);       
-   pinMode(11,OUTPUT);       
-   pinMode(10,OUTPUT);        
+	
+	Serial.begin(9600);        
+   	pinMode(13,OUTPUT);        
+  	pinMode(12,OUTPUT);       
+   	pinMode(11,OUTPUT);       
+   	pinMode(10,OUTPUT);        
    
   }
 
